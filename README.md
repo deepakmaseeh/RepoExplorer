@@ -1,5 +1,10 @@
 # React + Vite
 
+### create by TEAM
+1. Akshra 
+2. Amit
+3. Deepak Maseeh
+
 # GitHub Repository Filter 🔍
 
 A React application that allows users to filter GitHub repositories based on stars, forks, and programming language. The app fetches data from the GitHub API and displays relevant repositories.
