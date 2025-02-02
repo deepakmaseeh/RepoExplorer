@@ -4,11 +4,12 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  
 
-  color-scheme: light dark;
+  /* color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background-color: #daa1a1; */
+  background-image: linear-gradient(to bottom, #051937, #004d7a );
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -26,8 +27,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* display : flex; */
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -49,7 +50,10 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #141dca;
+}
+button:active {
+  background-color: #141dca;
 }
 button:focus,
 button:focus-visible {
@@ -67,4 +71,20 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.card{
+  margin: 8px;
+  border-radius: 10px;
+  padding: 2em;
+  background-color: rgba(177, 217, 248, 0.877);
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.search_bg{
+ background-color: rgb(234, 234, 234);
 }

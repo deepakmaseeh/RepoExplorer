@@ -1,8 +1,15 @@
 import React from 'react'
+import GitHubRepoFilter from '../Components/Filter.jsx'
+import Layout from '../layout/Layout.jsx'
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+    <Layout>
+      
+      <GitHubRepoFilter/>
+    </Layout>
+    </>
   )
 }
 
